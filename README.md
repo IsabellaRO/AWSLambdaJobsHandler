@@ -24,7 +24,9 @@
 
 `python3 runjob.py <user_id> <filename>`
 
-Note: file to be tested has to be on the same directory as the _runjob.py_ file
+Note: file to be tested has to be on the same directory as the _runjob.py_ file. This repository comes with a test file already so you can run:
+
+`python3 runjob.py 1 testsum.py`
 
 ## Checking job status
 
