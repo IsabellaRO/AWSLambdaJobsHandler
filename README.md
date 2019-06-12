@@ -42,8 +42,7 @@ print(main())`
 
 -Open the _runjob.py_ and edit the parameters variable:
 
-`
-'''
+`'''
 
     Function parameters (ex: {'a': 1, 'b': 2})
     '''
