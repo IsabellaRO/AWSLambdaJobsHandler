@@ -1,6 +1,18 @@
 # AWS Lambda Jobs Handler
 
-## Tutorial for running a job
+## Creating local database
+
+-Open a terminal under _.AWSLambdaJobsHandler/db_ directory
+
+-Access your MySQL CLI
+
+-Run the command:
+
+`source jobsdb.sql`
+
+-If no errors were given, you're set to go!!
+
+## Running a job
 
 -Open a terminal in the git repository
 
