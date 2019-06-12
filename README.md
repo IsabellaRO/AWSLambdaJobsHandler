@@ -42,12 +42,9 @@ print(main())`
 
 -Open the _runjob.py_ and edit the parameters variable:
 
-`'''
-
-    Function parameters (ex: {'a': 1, 'b': 2})
-    '''
-    
-    parameters = {'arg1': 1, 'arg2': 2}`
+`parameters = {'arg1': 1, 'arg2': 2}`
 
 
-In this example arg1 and arg2 will be substituted for 
+In this example arg1 and arg2 will be substituted for the values 1 and 2 respectively. What happens is that the python test file will no longer see the values as _arg1_ and _arg2_ but as _1_ and _2_.
+
+__Note: the return value of the function in the python test file needs to be _printed_ as the lambda handler will capture the value that is printed__
