@@ -28,3 +28,25 @@ _http://127.0.0.1:5000/jobs/<job_id>_
 Open a browser and access the url:
 _http://127.0.0.1:5000/users/<user_id>_
 
+## Changing test file and it's input
+-Change your file's variables as they were defines:
+
+test file:
+
+`def main():
+    i = 0
+    while(i < 10000000):
+        i += 1
+    return arg1+arg2
+print(main())`
+
+-Open the _runjob.py_ and edit the parameters variable:
+
+`
+'''
+    Function parameters (ex: {'a': 1, 'b': 2})
+    '''
+    parameters = {'arg1': 1, 'arg2': 2}`
+
+
+In this example arg1 and arg2 will be substituted for 
