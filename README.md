@@ -48,7 +48,7 @@ print(main())
 `parameters = {'arg1': 1, 'arg2': 2}`
 
 
-Make sure that your paramenter have the same name as in the _parameters_ variable under the _runjob.py_ file.
+Make sure that your paramenters have the same name as in the _parameters_ variable under the _runjob.py_ file.
 In this example _arg1_ and _arg2_ will be substituted for the values _1_ and _2_ respectively. What happens is that the python test file will no longer see the values as _arg1_ and _arg2_ but as _1_ and _2_.
 
 __Note: the return value of the function in the python test file needs to be _printed_, as the lambda handler will capture the value that is printed__
