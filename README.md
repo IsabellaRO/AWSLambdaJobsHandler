@@ -10,7 +10,9 @@
 
 -Under the git directory run:
 
-`python3 runjob.py`
+`python3 runjob.py <user_id> <filename>`
+
+Note: file has to be on the same directory as the runjob.py file
 
 ## Checking job status
 
