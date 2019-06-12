@@ -29,8 +29,9 @@ Open a browser and access the url:
 _http://127.0.0.1:5000/users/<user_id>_
 
 ## Changing test file and it's input
--Change your file's variables as they were defines:
+-Change your test file as you want:
 
+#### Example:
 test file:
 
 ```
@@ -47,6 +48,7 @@ print(main())
 `parameters = {'arg1': 1, 'arg2': 2}`
 
 
-In this example arg1 and arg2 will be substituted for the values 1 and 2 respectively. What happens is that the python test file will no longer see the values as _arg1_ and _arg2_ but as _1_ and _2_.
+Make sure that your paramenter have the same name as in the _parameters_ variable under the _runjob.py_ file.
+In this example _arg1_ and _arg2_ will be substituted for the values _1_ and _2_ respectively. What happens is that the python test file will no longer see the values as _arg1_ and _arg2_ but as _1_ and _2_.
 
 __Note: the return value of the function in the python test file needs to be _printed_, as the lambda handler will capture the value that is printed__
