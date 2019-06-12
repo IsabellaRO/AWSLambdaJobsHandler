@@ -1,0 +1,11 @@
+DROP DATABASE IF EXISTS jobsdb;
+CREATE DATABASE jobsdb;
+USE jobsdb;
+
+CREATE TABLE job (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    jobstatus VARCHAR(10),
+    response VARCHAR(1000),
+    uid INT
+);
+
