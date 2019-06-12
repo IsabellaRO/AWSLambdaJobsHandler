@@ -12,7 +12,7 @@
 
 `python3 runjob.py <user_id> <filename>`
 
-Note: file has to be on the same directory as the runjob.py file
+Note: file to be tested has to be on the same directory as the _runjob.py_ file
 
 ## Checking job status
 
@@ -47,4 +47,4 @@ print(main())`
 
 In this example arg1 and arg2 will be substituted for the values 1 and 2 respectively. What happens is that the python test file will no longer see the values as _arg1_ and _arg2_ but as _1_ and _2_.
 
-__Note: the return value of the function in the python test file needs to be _printed_ as the lambda handler will capture the value that is printed__
+__Note: the return value of the function in the python test file needs to be _printed_, as the lambda handler will capture the value that is printed__
