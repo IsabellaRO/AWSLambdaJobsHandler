@@ -55,11 +55,6 @@ def get_jobs():
         jobs.append({'job_id': i[0], 'uid': i[3], 'status': i[1], 'result': i[2]})
     return jsonify(jobs)
 
-@app.route('/test', methods=['GET'])
-def test():
-    res = run_job()
-    return jsonify(res)
-
 @app.route('/', methods=['GET'])
 def jobs2():
     return get_jobs()
