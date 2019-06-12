@@ -32,6 +32,10 @@ Note: file to be tested has to be on the same directory as the _runjob.py_ file
 Open a browser and access the url:
 _http://127.0.0.1:5000/_ or _http://127.0.0.1:5000/jobs_
 
+You should see something like:
+
+__[{"job_id":1,"result":"3","status":"DONE","uid":2}]__
+
 ### Checking a specific job
 Open a browser and access the url:
 _http://127.0.0.1:5000/jobs/<job_id>_
